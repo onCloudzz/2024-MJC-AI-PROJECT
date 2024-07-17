@@ -1,0 +1,81 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+#login-form {
+    width: 304px;
+    height: 390px;
+    margin: 0 auto;
+    padding: 28px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#Google{
+    width: 228px;
+    height: 44px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#Google-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+span{
+    font-size: 14px;
+    color: #111;
+    margin-right: 10px;
+    position: relative;
+    top: -15px;
+}
+
+p{
+    
+    font-weight: bold;
+}
+
+#Username, #Password, #submit{
+    box-sizing: border-box;
+    width: 228px;
+    height: 44px;
+    margin: 10px;
+    padding-left: 20px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+}
+
+form>#submit{
+    background-color: #373F3C;
+    margin-bottom: 22px;
+    padding-left: 0px;
+    border: none;
+    font-size: 14px;
+}
+
+#Forgot{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.roboto-btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px bold;
+}
+.roboto-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.roboto-btn-login{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #FFF;
+}
+.roboto-btn-forgot{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #2C3432;
+}

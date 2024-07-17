@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+
+.flex-container{
+    width: 300px;
+    height: 200px;
+    background-color: #c4c4c4;
+    border: 1px solid #000;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    color:white;
+    background-color: #ff5252;
+}
+
+.fle-item:nth-child(2n){
+    background-color: #bf5e5e;
+}

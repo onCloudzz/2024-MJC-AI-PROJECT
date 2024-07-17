@@ -1,0 +1,68 @@
+1. 플렉스 컨테이너에 속한 플렉스 아이템이 한 번에 수평과 수직 방향으로 중앙 정렬하도록 플렉스 박스 레이아웃 속성을 사용한 것을 고르세요.
+
+① display:flex, justify-content:flex-start, align-content:flex-start
+
+② display:flex, justify-content:center, align-content:flex-start
+
+③ display:flex, justify-content:center, align-self:flex-start
+
+④ display:flex, justify-content:flex-end, align-content:center
+
+⑤(정답) display:inline-flex, justify-content:center, align-items:center
+
+2. 다음 중 그리드 레이아웃에서 지원하지 않는 속성을 고르세요.
+
+① grid-template-columns
+
+② align-items
+
+③ place-items
+
+④ row-gap
+
+⑤ (정답)grid-grow
+
+3. 다음 중 화면 너비가 360px 이상일 때 CSS 코드가 적용될 수 있도록 미디어 쿼리를 작성한 것을 고르세요.
+  
+① (정답) @media only all and (min-width:360px){}
+
+② @media only all and (max-width:360px){}
+
+③ @media only all and (width:360px){}
+
+④ @media only all and (width-max:360px){}
+
+⑤ @media only all and (width-min:360px){}...
+
+1. 변수 score를 선언해서 데이터 10을 할당하는 코드를 작성해 보세요....
+
+let score = 10
+
+2. 다음 중 데이터의 종류와 자료형이 잘못 짝지어진 것을 고르세요.
+  
+① 문자열 - "Hello, Javascript"
+
+② 숫자형 - 0.111121212
+
+③ 논리형 - true
+
+④ undefined - undefined
+
+⑤  (정답) 배열 - {}
+
+3. q1, q2, q3의 출력 값을 순서대로 작성한 것을 고르세요.
+
+let q1 = 10 + 10 * 2;
+let q2 = 10 === 10 || 10 !== "10";
+let q3 = !(10 < 20) && 10 < 20;
+console.log(q1);
+
+① 40, false, true
+
+② 40, true, false
+
+③ 40, false, false
+
+④ (정답) 30, true, false
+
+⑤ 30, false, true...
