@@ -1,0 +1,51 @@
+1. 변수 score를 선언해서 데이터 10을 할당하는 코드를 작성해 보세요....
+
+let score = 10
+
+2. 다음 중 데이터의 종류와 자료형이 잘못 짝지어진 것을 고르세요.
+  
+① 문자열 - "Hello, Javascript"
+
+② 숫자형 - 0.111121212
+
+③ 논리형 - true
+
+④ undefined - undefined
+
+⑤  (정답) 배열 - {}
+
+3. q1, q2, q3의 출력 값을 순서대로 작성한 것을 고르세요.
+
+let q1 = 10 + 10 * 2;
+let q2 = 10 === 10 || 10 !== "10";
+let q3 = !(10 < 20) && 10 < 20;
+console.log(q1);
+
+① 40, false, true
+
+② 40, true, false
+
+③ 40, false, false
+
+④ (정답) 30, true, false
+
+⑤ 30, false, true...
+
+4. 다음 중 조건문에 대한 설명으로 옳은 것을 고르세요.
+
+① if 문은 반드시 else 문과 함께 사용해야 합니다.
+
+② if 문은 1개 이상의 else if 문을 포함해야 합니다.
+
+③ switch 문은 1개 이상의 default 문을 포함해야 합니다.
+
+④ (정답) if 문은 조건을 식으로 작성하고 switch 문은 값으로 작성합니다.
+
+⑤ switch 문의 case 문에는 반드시 break 문을 함께 사용해야 합니다.
+
+5. 반복문을 사용해 1부터 100까지의 합을 출력하는 코드를 작성해 보세요.
+let total = 0;
+for(let i = 1; i <= 100; i++){
+    total += i;
+}
+console.log(total);
