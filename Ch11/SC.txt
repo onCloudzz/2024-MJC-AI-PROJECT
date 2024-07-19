@@ -1,0 +1,39 @@
+1. 다음 중 obj 변수에 할당된 객체의 속성과 값이 다른 하나를 고르세요.
+
+①
+const obj = {name:"철수"};
+ 
+
+②
+const obj = {}; 
+obj.name = "철수";
+ 
+
+③ (정답)
+const obj = {name:"철수", age:20};
+delete obj.name; 
+ 
+
+④
+cosnt obj = {name:"영희"};
+obj.name = "철수";
+ 
+
+⑤
+const obj = {};
+const obj2 = obj;
+obj2.name = "철수";
+ 
+
+2. 버튼을 클릭하면 사용자의 모니터 화면에 가로 500px, 세로 300px 크기로 팝업창이 열리고, 팝업창에는 구글 사이트가 표시되도록 코드를 작성해 보세요.
+<body>
+  <button onclick="popup()">팝업</button>
+  <script>
+    function popup(){
+      const left = (screen.availWidth - 500) / 2 + window.screenX;
+      const top = (screen.availHeight - 300) / 2;
+      window.open('https://google.com', 'popup', 'width=500, height=300, left=' + left + ', top=' + top);
+      console.log(window.screenX);
+    }
+  </script>
+</body>
