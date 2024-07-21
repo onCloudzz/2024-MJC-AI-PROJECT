@@ -1,0 +1,120 @@
+1. 다음 중 문서 객체 모델에 대한 설명으로 올바르지 않은 것을 고르세요.
+
+① 문서 객체 모델은 HTML 구성 요소를 객체화한 모델 구조를 의미합니다.
+
+② 문서 객체 모델은 웹 브라우저가 HTML 문서를 해석하는 과정에서 생성됩니다.
+
+③ (정답) 문서 객체 모델은 자바스크립트 언어 사양에 내장되어 있는 객체 모델입니다.
+
+④ 문서 객체 모델을 조작해서 웹 브라우저에 표시되는 화면에 새로운 요소를 추가하거나 기존 구성 요소를 변경할 수 있습니다.
+
+⑤ 자바스크립트는 웹 브라우저에 화면이 표시된 후에 문서 객체 모델을 조작할 수 있습니다.
+
+2. 다음 코드에서 p 요소 노드를 선택하는 방법으로 올바르지 않은 것을 고르세요.
+
+<body>
+  <div class="box1">
+    <p id="text">Select Text</p>
+  </div>
+</body>
+① (정답) document.getElementById("#text")
+
+② document.querySelector("p")
+
+③ document.querySelector(".box1 > p")
+
+④ document.querySelectorAll("p")[0]
+
+⑤ document.querySelectorAll("div")[0].firstElementChild
+
+3. 다음과 같은 코드가 있을 때, p 태그의 fz20 클래스 속성을 삭제하고, sample text를 change text로 변경하고 싶다면 (가), (나)에 들어갈 내용으로 맞게 짝지어진 것을 고르세요.
+
+<p id="text" class="red-color fz20">sample text</p>
+<script>
+  const pEl = document.querySelector("#text");
+  pEl.(가) = "change text"; 
+    pEl.(나);
+</script>
+
+(가) - (나)
+
+① datase - removeClass("fz20")
+
+② datase - setAttribute("fz20")
+
+③ innerHTML - toggleClass()
+
+④ (정답)innerTex - classList.remove("fz20")
+
+⑤ textConten - removeClass("fz20")
+
+4. HTML 문서에 img 태그를 추가하려고 합니다. 이때, 이미지 경로는 ‘sample.jpg’, 이미지 설명은 ‘샘플 이미지’라고 지정하려고 할 때, 다음 코드의 A, B, C, D에 들어 갈 내용으로 알맞은 것을 고르세요.
+
+<script>
+  const img = document.(A);
+  img.(B) = "sample.jpg";
+  img.(C) = "샘플 이미지";
+  document.body.(D)(img);
+</script>
+(A) - (B) - (C) - (D)
+
+① createAttribute('img') - al - src - createTextNode
+
+② createAttribute('img') - src - al - setAttributeNode
+
+③ createElement('img') - al - src - append
+
+④ (정답) createElement('img') - src - al - appendChild
+
+⑤ createTextNode('img') - al - src - removeChild
+
+5. 다음 코드의 입력 항목 중 나이 항목의 값을 가져오는 코드를 고르세요.
+
+<form name="frm1">
+  <label for="uname">이름</label>
+  <input type="text" id="uname" name="uname">
+  <label for="age">나이</label>
+  <input type="text" id="age" name="age">
+  <button type="submit">전송</button>
+</form>
+
+① (정답) document.frm1.age.value
+
+② document.forms.age.value
+
+③ document.forms[0].uname.value
+
+④ document.frm1.elements[0].value
+
+⑤ document.forms[0].elements[0].value
+
+6. 버튼을 더블 클릭하면 경고창이 출력되게 코드를 작성해 주세요. 이때, 경고창의 메시지는 아무거나 상관없습니다.
+
+<button>클릭</button>
+<script>
+  <button>클릭</button>
+  document.querySelector("button").addEventListener("dblclick", function(){
+    alert("dblclick!");
+  })
+</script>
+
+7. a 태그를 클릭해도 페이지가 이동하지 않도록 기본 이벤트를 제거하는 코드를 다음과 같이 작성했을 때 (가), (나)에 들어갈 내용으로 알맞은 것을 고르세요.
+
+<a href="https://www.gilbut.co.kr">길벗</a>
+<script>
+  const aEl = document.querySelector("a");
+  aEl.addEventListener("click", function((가)){
+     e.(나);
+  })
+</script>
+(가) - (나)
+
+① even - preventDefault()
+
+② even - this
+
+③ e - clientX
+
+④ e - keyCode
+
+⑤ (정답) e - preventDefault()
